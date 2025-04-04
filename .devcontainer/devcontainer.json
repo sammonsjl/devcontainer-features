@@ -1,7 +1,9 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
     "customizations": {
         "vscode": {
+            "extensions": [
+                "mads-hartmann.bash-ide-vscode"
+            ],
             "settings": {
                 "json.schemas": [
                     {
@@ -11,15 +13,13 @@
                         "url": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json"
                     }
                 ]
-            },
-            "extensions": [
-                "mads-hartmann.bash-ide-vscode"
-            ]
+            }
         }
     },
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {}
     },
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
     "remoteUser": "node",
     "updateContentCommand": "npm install -g @devcontainers/cli"
 }
