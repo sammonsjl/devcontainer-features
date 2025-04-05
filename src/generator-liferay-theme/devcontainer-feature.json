@@ -5,6 +5,6 @@
 		"ghcr.io/devcontainers/features/common-utils",
 		"ghcr.io/devcontainers/features/node"
 	],
-	"name": "generator-liferay-theme",
+	"name": "Liferay Theme Generator",
 	"version": "1.0.0"
 }

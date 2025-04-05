@@ -1,0 +1,8 @@
+.devcontainer/.devpod-internal/devcontainer-features.builtin.env
+.devcontainer/.devpod-internal/Dockerfile-with-features
+.devcontainer/.devpod-internal/0/devcontainer-feature.json
+.devcontainer/.devpod-internal/0/devcontainer-features-install.sh
+.devcontainer/.devpod-internal/0/devcontainer-features.env
+.devcontainer/.devpod-internal/0/install.sh
+.devcontainer/.devpod-internal/0/NOTES.md
+.devcontainer/.devpod-internal/0/README.md
