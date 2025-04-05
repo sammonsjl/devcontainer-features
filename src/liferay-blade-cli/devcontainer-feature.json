@@ -5,6 +5,7 @@
 	"description": "Install [Liferay Blade CLI](https://learn.liferay.com/web/guest/w/dxp/liferay-development/tooling/blade-cli)",
 	"id": "blade",
 	"installsAfter": [
+		"ghcr.io/devcontainers/features/java:1",
 		"ghcr.io/devcontainers/features/common-utils"
 	],
 	"name": "liferay-blade-cli",
