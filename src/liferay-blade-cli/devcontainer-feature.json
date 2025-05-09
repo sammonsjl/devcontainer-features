@@ -1,6 +1,6 @@
 {
   "containerEnv": {
-    "PATH": "/home/${HOME}/jpm/bin:${PATH}"
+    "PATH": "/home/node/jpm/bin:${PATH}"
   },
   "description": "Install [Liferay Blade CLI](https://learn.liferay.com/web/guest/w/dxp/liferay-development/tooling/blade-cli)",
   "id": "liferay-blade-cli",
@@ -9,5 +9,5 @@
     "ghcr.io/devcontainers/features/common-utils"
   ],
   "name": "Liferay Blade CLI",
-  "version": "1.0.0"
+  "version": "1.0.2"
 }
